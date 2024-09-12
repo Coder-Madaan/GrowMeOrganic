@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
+# DataTable Rows selection with PrimeReact
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application that displays artwork data in a table using PrimeReact components. The application includes functionalities for pagination, row selection, and dynamic row selection through a dialog.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Artwork DataTable**: Displays a list of artworks with various attributes.
+- **Pagination**: Navigate through pages of artwork data.
+- **Row Selection**: Select multiple rows to perform actions.
+- **Dynamic Row Selection**: Open a dialog to select a specific number of rows dynamically.
+- **Responsive Design**: Adaptable to different screen sizes.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: Front-end library for building user interfaces.
+- **PrimeReact**: A React UI component library.
+- **TypeScript**: A statically typed superset of JavaScript.
+- **CSS**: Custom styling for the application.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Clone the repository, navigate into the project directory, and install the dependencies:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+```bash
+git clone https://github.com/Coder-Madaan/GrowMeOrganic
+cd GrowMeOrganic
+npm install
