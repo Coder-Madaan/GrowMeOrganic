@@ -1,0 +1,88 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.table-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.rows-dropdown {
+  margin-right: 1rem;
+}
+
+.select-rows-btn {
+  margin-left: auto;
+}
+
+.custom-datatable {
+  width: 80%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.p-datatable-tbody > tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.p-datatable-thead > tr {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.p-datatable {
+  margin-top: 1rem;
+}
+
+.p-datatable-tbody > tr:hover {
+  background-color: #f0f0f0;
+}
+.blur-background {
+  filter: blur(5px);
+  transition: filter 0.3s ease;
+}
+
+.custom-dialog {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Enhances the contrast of the dialog */
+}
+
+/* Custom CSS for paginator and buttons */
+
+.custom-data-table .p-paginator .p-paginator-prev,
+.custom-data-table .p-paginator-next,
+.custom-data-table .p-paginator-first,
+.custom-data-table .p-paginator-last {
+  background-color: #007ad9;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin: 0.25rem;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.custom-data-table .p-paginator .p-paginator-pages .p-paginator-page {
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0.25rem;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.custom-data-table .p-paginator .p-paginator-page.p-highlight {
+  background-color: #007ad9;
+  color: #fff;
+}
+
+/* Styling for Dialog Buttons */
+/* .p-button-danger {
+  background-color: */
